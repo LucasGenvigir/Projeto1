@@ -1,0 +1,161 @@
+/* Reset de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #a36b63;
+}
+
+header {
+    background-color: #4f5645;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px; /*adicionei agr*/
+}
+
+main {
+    padding: 20px;
+}
+
+.produto {
+    margin-bottom: 20px;
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    
+    bottom: 0;
+    width: 100%;
+}
+
+header img{
+    height: 110px;
+    width: 110px;
+    float: left;
+    position: relative;
+    top: -16px;
+}
+
+/*parte do login*/
+.ajustelog{
+    width: 100%;
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    background-color: whitesmoke;
+    border-radius: 14px;
+    margin: 14px;
+    max-width: 600px;
+    width: 100%;
+    box-sizing: 0 3px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.header{
+    background: #4f5645;
+    padding: 24px;
+    text-align: center;
+    color: white;
+}
+
+.form{
+    padding: 18px;
+}
+
+.form-check label{
+    display: flex;
+    flex-direction: row;
+}
+
+.form-check a{
+    visibility: hidden;
+}
+
+.form-content{
+    margin-bottom: 8px;
+    padding-bottom: 18px;
+    position: relative;
+
+}
+
+.form-content label{
+    display: block;
+    margin-bottom: 4px;
+    text-align: left;
+}
+
+.form-content input{
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px;
+    border: 2px solid whitesmoke;
+}
+
+.form-content a{
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    visibility: hidden;
+}
+
+.form button{
+    background-color: #4f5645;
+    color: white;
+    width: 100%;
+    border-radius: 14px;
+    padding: 10px;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 14px;
+}
+
+/*parte de quando der erro*/
+
+.form-content.erro input{
+    border-color: red;
+}
+
+.form-content.erro a{
+    color: red;
+    visibility: visible;
+}
+
+/*parte do login*/
